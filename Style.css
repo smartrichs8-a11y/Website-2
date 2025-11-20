@@ -1,0 +1,65 @@
+/* ===== LOGIN PAGE ===== */
+
+.login-body {
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.login-box {
+  width: 300px;
+  margin: 120px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  text-align: center;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 95%;
+  padding: 10px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* ===== DASHBOARD PAGE ===== */
+
+.dashboard-body {
+  background: #e8e8e8;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-box {
+  width: 600px;
+  background: white;
+  padding: 20px;
+  margin: 80px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #777;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #0066ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

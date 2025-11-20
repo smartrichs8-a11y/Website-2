@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fungsi Website Lanjutan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 800px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    h2 {
+      text-align: center;
+      color: #bae6fd;
+    }
+
+    p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .logout-btn {
+      display: block;
+      margin: 25px auto 0 auto;
+      background-color: #ef4444;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .logout-btn:hover {
+      background-color: #dc2626;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Fungsi Website Berdasarkan Bidangnya</h2>
+
+    <p><strong>Bagi perusahaan atau bisnis</strong>, website dapat berfungsi sebagai:</p>
+    <ul>
+      <li>Media toko pusat</li>
+      <li>Alat untuk meraih peringkat pertama di Google</li>
+      <li>Meningkatkan trust pelanggan</li>
+      <li>Profil perusahaan</li>
+      <li>Media press release</li>
+      <li>Dan lain-lain</li>
+    </ul>
+
+    <p><strong>Bagi sekolah</strong>, website menjadi:</p>
+    <ul>
+      <li>Profil sekolah</li>
+      <li>Sarana berbagi informasi pembelajaran</li>
+      <li>Media komunikasi</li>
+      <li>Wadah komunitas</li>
+      <li>Platform pembelajaran daring</li>
+      <li>Dan lain-lain</li>
+    </ul>
+
+    <p><strong>Bagi masyarakat</strong>, website dapat berfungsi sebagai:</p>
+    <ul>
+      <li>Sarana informasi</li>
+      <li>Mengakses layanan publik</li>
+      <li>Media komunitas</li>
+      <li>Media aksi sosial</li>
+      <li>Dan lain-lain</li>
+    </ul>
+
+    <p><strong>Bagi personal</strong>, website juga memiliki manfaat seperti:</p>
+    <ul>
+      <li>Branding personal</li>
+      <li>Berbagi konten (hobi, pengalaman, informasi)</li>
+      <li>Menulis cerita atau diary</li>
+      <li>Menampilkan portofolio</li>
+      <li>Menghasilkan uang</li>
+      <li>Dan lain-lain</li>
+    </ul>
+
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+
+  <script>
+    function logout() {
+      alert("Anda telah keluar dari website.");
+      localStorage.clear();
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
